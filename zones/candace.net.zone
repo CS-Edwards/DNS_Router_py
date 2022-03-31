@@ -1,0 +1,26 @@
+{
+	"$origin": "candace.net.",
+	"$ttl": 3600,
+	"soa":{
+		"mname":"ns1.candace.net.",
+		"rname": "admin.candace.net.",
+		"serial": "{time}",
+		"refresh": 3600,
+		"retry":600,
+		"expire":604800
+		"minimum":86400	
+	},
+	
+	"ns": [
+		{"host":"ns1.candace.net."},
+		{"host":"ns2.candace.net."}
+	
+	],
+	"a":[
+		{"name": "@","ttl":400, "value":"255.255.255.255"},
+		{"name": "@","ttl":400, "value":"127.0.0.1"},
+		{"name": "@","ttl":400, "value":"127.0.0.1"},
+		{"name": "@","ttl":400, "value":"127.0.0.1"}
+		
+		]
+}
