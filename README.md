@@ -1,4 +1,4 @@
-# DNS_Router_py
+# DNS_py
 Python Build of DNS
 
 Py version of Simple Router for ICS651
